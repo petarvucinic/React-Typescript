@@ -6,7 +6,10 @@ interface Props {
 }
 
 interface Props2 extends Props {
-  address: string;
+  address: string;   
+
+
+  
 }
 // type Props3<T = unknown> = T & { surname: string };
 function SimpleComponent(props: React.PropsWithChildren<Props>) {
